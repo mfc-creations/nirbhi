@@ -1,0 +1,276 @@
+@media only screen and (min-width: 993px) {
+  .pricing-cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4vw;
+  }
+
+  .card {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .card:hover {
+    transform: scale(1.1);
+    /* transform: perspective(2000px) rotateY(0deg); */
+  }
+  .first-card {
+    height: 100%;
+    min-height: 356px;
+    max-height: 380px;
+    background-color: #0572ec;
+    width: 350px;
+  }
+  .second-card {
+    background-color: #475766;
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    min-height: 390px;
+    width: 350px;
+    position: relative;
+    top: -10px;
+  }
+  .third-card {
+    background-color: #3f4c73;
+    height: 100%;
+    min-height: 356px;
+    max-height: 380px;
+    width: 350px;
+  }
+  .title {
+    color: #fff;
+    font-size: 1.625rem;
+    max-width: 260px;
+  }
+  .description {
+    color: #fff;
+    font-size: 1.125rem;
+    line-height: 1.39;
+    letter-spacing: -0.4px;
+    margin: 0 auto 13px;
+  }
+  .first-card-description {
+    max-width: 270px;
+  }
+  .price {
+    color: #fff;
+    font-size: 1.5em;
+    letter-spacing: -1px;
+    line-height: 1em;
+    margin: 25px 0 30px;
+    position: relative;
+    width: 100%;
+  }
+  .price span {
+    font-size: 4.875rem;
+    vertical-align: -0.44em;
+  }
+  .biling-mode {
+    display: inline-block;
+    margin: 0 14px 10px;
+    line-height: 20px;
+    letter-spacing: 0.34px;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 500;
+    opacity: 0.7;
+  }
+  a {
+    font-size: 1em;
+    text-decoration: none;
+  }
+  .try-btn {
+    box-sizing: border-box;
+    width: 90%;
+    padding: 12px;
+    font-weight: 600;
+    display: block;
+    max-width: 248px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+  }
+  .footer {
+    background-color: #2b3a49;
+    border-radius: 0 0 6px 6px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    min-height: 70px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+  .footer p {
+    font-size: 0.875rem;
+    margin: 15px auto;
+    padding: 0 30px;
+    color: #fff;
+  }
+  .second-card .try-btn {
+    background-color: #0572ec;
+    color: #fff;
+  }
+  .first-card .try-btn {
+    color: #0572ec;
+    background-color: #fff;
+  }
+  .third-card .try-btn {
+    color: #475766;
+    margin-top: 18px;
+    background-color: #fff;
+  }
+  .third-card ul {
+    position: relative;
+    top: 8px;
+    max-width: 270px;
+    margin: 10px 0;
+  }
+  .third-card li {
+    padding-bottom: 5px;
+    color: #b5bcd0;
+    list-style: none;
+  }
+}
+@media only screen and (min-width: 0) and (max-width: 992px) {
+  .pricing-cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vw;
+    align-items: center;
+  }
+
+  .card {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .card:hover {
+    transform: scale(1.1);
+    /* transform: perspective(2000px) rotateY(0deg); */
+  }
+  .first-card {
+    height: 100%;
+    min-height: 356px;
+    max-height: 380px;
+    background-color: #0572ec;
+    width: 350px;
+  }
+
+  .second-card {
+    background-color: #475766;
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    min-height: 390px;
+    width: 350px;
+    position: relative;
+    /* top: -10px; */
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+  }
+  .third-card {
+    background-color: #3f4c73;
+    height: 100%;
+    min-height: 356px;
+    max-height: 380px;
+    width: 350px;
+  }
+  .title {
+    color: #fff;
+    font-size: 1.625rem;
+    max-width: 260px;
+  }
+  .description {
+    color: #fff;
+    font-size: 1.125rem;
+    line-height: 1.39;
+    letter-spacing: -0.4px;
+    margin: 0 auto 13px;
+  }
+  .first-card-description {
+    max-width: 270px;
+  }
+  .price {
+    color: #fff;
+    font-size: 1.5em;
+    letter-spacing: -1px;
+    line-height: 1em;
+    margin: 25px 0 30px;
+    position: relative;
+    width: 100%;
+  }
+  .price span {
+    font-size: 4.875rem;
+    vertical-align: -0.44em;
+  }
+  .biling-mode {
+    display: inline-block;
+    margin: 0 14px 10px;
+    line-height: 20px;
+    letter-spacing: 0.34px;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 500;
+    opacity: 0.7;
+  }
+  a {
+    font-size: 1em;
+    text-decoration: none;
+  }
+  .try-btn {
+    box-sizing: border-box;
+    width: 90%;
+    padding: 12px;
+    font-weight: 600;
+    display: block;
+    max-width: 248px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+  }
+  .footer {
+    background-color: #2b3a49;
+    border-radius: 0 0 6px 6px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    min-height: 70px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+  .footer p {
+    font-size: 0.875rem;
+    margin: 15px auto;
+    padding: 0 30px;
+    color: #fff;
+  }
+  .second-card .try-btn {
+    background-color: #0572ec;
+    color: #fff;
+  }
+  .first-card .try-btn {
+    color: #0572ec;
+    background-color: #fff;
+  }
+  .third-card .try-btn {
+    color: #475766;
+    margin-top: 18px;
+    background-color: #fff;
+  }
+  .third-card ul {
+    position: relative;
+    top: 8px;
+    max-width: 270px;
+    margin: 10px 0;
+  }
+  .third-card li {
+    padding-bottom: 5px;
+    color: #b5bcd0;
+    list-style: none;
+  }
+}
